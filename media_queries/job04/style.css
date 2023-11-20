@@ -1,0 +1,39 @@
+
+body{
+    background: white;
+
+}
+
+section{
+    padding: 60px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    justify-content:flex-start;
+    background: #88c1d0 ;
+}
+
+@media screen and (max-width: 1600px){
+
+}
+@media screen and (min-width: 768px) and(max-width: 1599px){
+    
+}
+
+
+@media screen and (max-width: 767px){
+    /* Ceci et la configuration pour la nav barre à moins de 767px */
+    *{ box-sizing: border-box;}
+    body {margin: 0;}
+    .menu{position: fixed; width: 0px;}
+    main{margin-left: 50px; width: 500px; text-align: justify; }
+    #hamburger{display: none;}
+    #hamburger-logo{cursor: pointer; background: black; width: 200px; display: block; color: white; text-align: right; transform: translateX(-168px);padding: 10px; }
+    nav{display: flex; flex-direction: column; background: black; overflow: hidden; width: 200px; transform: translateX(-200px);}
+    #hamburger-logo,nav{transition: 0.7s; }
+    #hamburger:checked ~ #hamburger-logo,#hamburger:checked ~ nav{transform: translate(0); }
+    nav a {color: white; text-decoration: none; padding: 10px; }
+    nav a:hover {background: rgb(27, 27, 27); }
+}
+

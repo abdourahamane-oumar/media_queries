@@ -1,0 +1,25 @@
+
+body{
+    background: white;
+
+}
+
+section{
+    padding: 60px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    justify-content:flex-start;
+    background: #88c1d0 ;
+}
+
+@media screen and (max-width: 1600px){
+
+}
+@media screen and (min-width: 768px) and(max-width: 1599px){
+    
+}
+@media screen and (min-width: 767px){
+    
+}
